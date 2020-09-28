@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(../img/fondo.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.container{
+    background: rgba(0, 0, 0, 0.267);
+    width: 60%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid rgba(211, 235, 255, 0.712);
+    border-radius: 10px;
+}
+.container *{
+    margin: 18px auto;
+    outline: none;
+}
+.container label{
+    margin: 10px auto 5px;
+}
+.container #data{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.container #data input{
+    width: 200px;
+    margin: 0px auto;
+    padding: 8px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+.container button{
+    padding: 6px 10px;
+    width: 120px;
+    font-size: 15px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    transition: 0.4s;
+
+}
+
+.container #record{
+    margin: 60px auto;
+    width: 150px;
+}
+.container #add:hover{
+    background-color: rgba(130, 255, 147, 0.26);
+    border: 1px solid rgb(93, 255, 141);
+    cursor: pointer;
+
+}
+.container #read:hover{
+    background-color: rgba(130, 174, 255, 0.26);
+    border: 1px solid rgb(90, 134, 255);
+    cursor: pointer;
+
+}
+.container #record:hover{
+
+    background-color: rgba(190, 255, 130, 0.26);
+    border: 1px solid rgb(179, 255, 107);
+    cursor: pointer;
+}
+.container #edit:hover{
+
+    background-color: rgba(253, 255, 130, 0.26);
+    border: 1px solid rgb(252, 255, 90);
+    cursor: pointer;
+}
+.container #remove:hover{
+
+    background-color: rgba(255, 130, 130, 0.26);
+    border: 1px solid rgb(255, 90, 90);
+    cursor: pointer;
+}
+table{
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    border-collapse: collapse;
+    border-radius: 5px;
+}
+thead{
+    background-color: rgb(43, 43, 43);
+    font-size: 18px;
+}
+th{
+    border: 1px solid rgba(124, 192, 255, 0.2);
+    padding: 5px;
+}
+td{
+    border: 1px solid rgba(124, 192, 255, 0.2);
+    border-bottom: 5px solid rgba(177, 239, 255, 0.5);
+    padding: 2px;
+}
+tr:nth-child(even){
+    background-color: rgba(240, 248, 255, 0.1);
+}
+table tr td:nth-child(5) {
+    border: none;
+}
+table tr td:nth-child(6) {
+    border: none;
+}
